@@ -222,6 +222,7 @@ extension FolioReaderContainer {
             self?.dismiss()
         }
         alertController.addAction(action)
+        alertController.modalPresentationStyle = .fullScreen
         self.present(alertController, animated: true, completion: nil)
     }
 }
